@@ -1,0 +1,16 @@
+@import "../css/resources";
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: var(--offset);
+  padding-right: var(--offset);
+
+  @include respond-to(sm) {
+    width: var(--screen-sm);
+  }
+
+  @include respond-to(md) {
+    width: var(--screen-md);
+  }
+}

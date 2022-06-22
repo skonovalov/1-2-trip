@@ -1,0 +1,25 @@
+:root {
+  --offset-xxs: 4px;
+  --offset-xs: 8px;
+  --offset-sm: 12px;
+  --offset: 16px;
+  --offset-lg: 24px;
+  --offset-xl: 32px;
+
+  --font-h2: 24px;
+
+  --line-height-default: 1.16;
+
+  --font-bold: 700;
+  --font-regular: 400;
+
+  --border-radius-xs: 4px;
+
+  --screen-sm: 736px;
+  --screen-md: 1096px;
+}
+
+$breakpoints: (
+  "sm": 768px,
+  "md": 1128px,
+);

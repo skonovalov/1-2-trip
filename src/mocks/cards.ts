@@ -1,0 +1,42 @@
+export default [
+  {
+    id: 1,
+    bg: 'temple',
+    city: 'Milan',
+    country: 'Italy',
+    price: '6518',
+    rent: 'perDay',
+  },
+  {
+    id: 2,
+    bg: 'temple',
+    city: 'Dublin',
+    country: 'Ireland',
+    price: '5500',
+    rent: 'perDay',
+  },
+  {
+    id: 3,
+    bg: 'temple',
+    city: 'Paris',
+    country: 'France',
+    price: '9700',
+    rent: 'perDay',
+  },
+  {
+    id: 4,
+    bg: 'temple',
+    city: 'Lisabon',
+    country: 'Portugal',
+    price: '4250',
+    rent: 'perDay',
+  },
+  {
+    id: 5,
+    bg: 'temple',
+    city: 'Barcelona',
+    country: 'Spain',
+    price: '3999',
+    rent: 'perDay',
+  },
+];

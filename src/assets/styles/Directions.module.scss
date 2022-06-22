@@ -1,0 +1,21 @@
+@import "../css/resources";
+
+.wrapper {
+  @include respond-to(sm) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--offset);
+  }
+
+  @include respond-to(md) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--offset);
+  }
+}
+
+.item {
+  @include respond-down(sm) {
+    margin-bottom: var(--offset);
+  }
+}

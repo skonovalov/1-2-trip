@@ -1,0 +1,19 @@
+@mixin respond-to($size) {
+  $screen: map-get($breakpoints, $size);
+
+  @if $screen {
+    @media screen and (min-width: $screen) {
+      @content;
+    }
+  }
+}
+
+@mixin respond-down($size) {
+  $screen: map-get($breakpoints, $size);
+
+  @if $screen {
+    @media screen and (max-width: calc($screen - 1px)) {
+      @content;
+    }
+  }
+}
