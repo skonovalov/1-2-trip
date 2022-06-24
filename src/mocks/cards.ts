@@ -5,7 +5,7 @@ export default [
     city: 'Milan',
     country: 'Italy',
     price: '6518',
-    rent: 'perDay',
+    rent: 'PER_DAY',
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export default [
     city: 'Dublin',
     country: 'Ireland',
     price: '5500',
-    rent: 'perDay',
+    rent: 'PER_DAY',
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export default [
     city: 'Paris',
     country: 'France',
     price: '9700',
-    rent: 'perDay',
+    rent: 'PER_DAY',
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export default [
     city: 'Lisabon',
     country: 'Portugal',
     price: '4250',
-    rent: 'perDay',
+    rent: 'PER_DAY',
   },
   {
     id: 5,
@@ -37,6 +37,6 @@ export default [
     city: 'Barcelona',
     country: 'Spain',
     price: '3999',
-    rent: 'perDay',
+    rent: 'PER_DAY',
   },
 ];

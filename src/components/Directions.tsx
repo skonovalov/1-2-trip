@@ -1,3 +1,4 @@
+import abbreviation from '../constants/main';
 import Container from './Container';
 import DirectionsCard from './DirectionsCard';
 import cards from '../mocks/cards';
@@ -11,7 +12,7 @@ export default function Directions({ title }: directionsTypes) {
   return (
     <Container>
       <div className="Directions">
-        <h2>
+        <h2 className={styles.title}>
           {title }
         </h2>
         <div className={styles.wrapper}>
@@ -24,7 +25,7 @@ export default function Directions({ title }: directionsTypes) {
                 topLeft={card.city}
                 topRight={card.price}
                 bottomLeft={card.country}
-                bottomRight={card.rent}
+                bottomRight={abbreviation[card.rent as keyof typeof abbreviation]}
               />
             ))
           }

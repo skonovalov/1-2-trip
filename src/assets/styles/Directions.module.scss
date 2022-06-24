@@ -14,6 +14,10 @@
   }
 }
 
+.title {
+  margin-bottom: var(--offset-xl);
+}
+
 .item {
   @include respond-down(sm) {
     margin-bottom: var(--offset);
